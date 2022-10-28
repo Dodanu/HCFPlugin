@@ -1,0 +1,6 @@
+name: MultipleChoiceHCF
+version: '${project.version}'
+main: multiplechoice.hcf.hcf.HCF
+api-version: 1.19
+authors: [ Dodanu, El3ctrogamer ]
+description: The HCF plugin of the CoreNetwork
