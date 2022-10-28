@@ -284,7 +284,7 @@ public class FactionCommands implements CommandExecutor {
                                                 }
                                                 else {
 
-                                                    if(pHCFProfile.getFaction().getLeader().equals(pHCFProfile)) {
+                                                    if(pHCFProfile.getFaction().getLeader().equals(pHCFProfile) || pHCFProfile.getFaction().officers.contains(pHCFProfile)) {
 
                                                         p.sendMessage(HCFPrefix + ChatColor.RED + "You need to provide a player name to do that!");
 
@@ -292,6 +292,20 @@ public class FactionCommands implements CommandExecutor {
                                                     else {
 
                                                         p.sendMessage(HCFPrefix + ChatColor.RED + "You need to be a faction leader to do that!");
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            else {
+
+                                                if(args[0].equalsIgnoreCase("promote")) {
+
+                                                    if(args.length == 2) {
+
+                                                        Bukkit.getPlayer(args[1]);
 
                                                     }
 

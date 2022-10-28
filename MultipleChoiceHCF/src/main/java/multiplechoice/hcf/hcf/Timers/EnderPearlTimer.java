@@ -10,7 +10,6 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 import static multiplechoice.hcf.hcf.HCF.decreaseEnderTimer;
-import static multiplechoice.hcf.hcf.HCF.decreaseGAppleTimer;
 import static multiplechoice.hcf.hcf.Profile.HCFProfileManager.HCFprofiles;
 
 public class EnderPearlTimer implements Listener {

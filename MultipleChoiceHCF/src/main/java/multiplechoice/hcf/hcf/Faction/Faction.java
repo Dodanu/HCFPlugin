@@ -13,6 +13,8 @@ public class Faction {
 
     public List<HCFProfile> members = new ArrayList<HCFProfile>();
 
+    public List<HCFProfile> officers = new ArrayList<HCFProfile>();
+
     public HCFProfile leader;
 
     public Integer memberNumber = members.size();
